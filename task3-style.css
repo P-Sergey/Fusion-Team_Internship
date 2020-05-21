@@ -90,6 +90,10 @@
   padding-left: 20px;
 }
 
+.text-highlignt {
+  font-weight: bold;
+}
+
 .content__center--middle {
  display: flex;
  flex-wrap: wrap;
@@ -162,13 +166,13 @@
   list-style: square;
 }
 
-.service {
-  list-style: none;
-}
-
 .list {
   padding: 10px 10px 10px 15px;
   margin: 7px 0;
+}
+
+.list__item {
+  list-style: none;
 }
 
 .text-block {
