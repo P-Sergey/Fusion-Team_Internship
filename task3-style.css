@@ -1,9 +1,10 @@
 .body {
   min-width: 960px;
+  max-width: 1300px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 0 12%;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -23,6 +24,7 @@
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
   margin-bottom: auto;
+  margin-top: 40px;
 }
 
 .head--normal {
@@ -114,7 +116,7 @@
 }
 
 .bottom__item {
-  flex: 1 1 0;
+  flex: 1 1 50%;
   background-color: lightgray;
   color: gray;
   margin-left: 20px;
@@ -124,6 +126,7 @@
   border-top: 1px solid gray;
   padding-top: 20px;
   margin-top: auto;
+  margin-bottom: 40px;
   height: 180px;
   display: flex;
   justify-content: space-between;
@@ -131,14 +134,14 @@
 
 .footer__element {
   margin-right: 20px;
-  flex: 1 1 0;
+  flex: 1 1 30%;
   background-color: gray;
   color: white;
 }
 
 .footer__element--right {
   display: flex;
-  flex: 1 1 0;
+  flex: 1 1 30%;
   flex-direction: column;
   justify-content: space-between;
 }
